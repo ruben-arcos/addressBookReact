@@ -24,7 +24,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>find me (:</h1>
+      <h1>find me</h1>
       <ul>
         {users.map((user) => {
           return <User data={user} />
